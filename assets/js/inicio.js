@@ -11,22 +11,22 @@ window.addEventListener('load', () => {
 const textLoad = () => {
     
     setTimeout(() => {
-        text.textContent = "Que tal mach?";
+        text.textContent = "Que tal machh?";
     }, 0);
     setTimeout(() => {
-        text.textContent = "De verdad creiste que me iba a olvidar?";
+        text.textContent = "De verdad creíste que me iba a olvidar?";
     }, 4000);
     setTimeout(() => {
         text.textContent = "Puede ser... nahh como crees :D ";
     }, 8000); //1s = 1000 milliseconds
     setTimeout(() => {
-        text.textContent = "Pero bueno, tenia que hacer algo especial ";
+        text.textContent = "Pero bueno, tenía que hacer algo especial";
     }, 12000); //1s = 1000 milliseconds
     setTimeout(() => {
-        text.textContent = "Espero que disfrutes de esta pequena experiencia";
+        text.textContent = "Espero que disfrutes de esta pequeña experiencia";
     }, 16000); //1s = 1000 milliseconds
     setTimeout(() => {
-        text.textContent = "Cuando estes lista preciona el boton de abajo";
+        text.textContent = "Cuando estés lista presiona el botón de abajo!";
         if (giftBoxx.classList.contains('hidden')) {
             giftBoxx.classList.remove('hidden');
         }
